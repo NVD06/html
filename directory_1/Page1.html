@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học Trực Tuyến</title>
+    <link rel="stylesheet" href="../header_and_footer/a.css">
+    <link rel="stylesheet" href="Page1.css">
+    <script src="Page1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="../image/logo.png" alt="Logo" height="50">
+                </div>
+                <div class="explore">
+                    <div class="dropdown">
+                        <a href="#">Khám phá</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Thi chứng chỉ</a></li>
+                            <li><a href="#">CNTT</a></li>
+                            <li><a href="#">Phát triển</a></li>
+                            <li><a href="#">Kinh doanh</a></li>
+                            <li><a href="#">Thiết kế</a></li>
+                            <li><a href="#">Marketing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Tìm kiếm nội dung bất kỳ">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="#" class="popup-hover" data-popup="Cho phép bạn truy cập hơn 30000 khóa học trên ILogo">Ilogo Business</a>
+                <a href="#" class="popup-hover" data-popup="Biến kiến thức thành cơ hội và tiếp cận với hàng triệu người">Giảng dạy trên Ilogo</a>
+                <a href="#"><img src="../image/shop.png" alt="Cart" height="20"></a>
+                <button class="login">Đăng nhập</button>
+                <button class="register">Đăng ký</button>
+                <a href="#"><img src="../image/plane.png" alt="" height="20"></a>
+            </nav>
+        </div>
+    </header>
+    <!-- section 1 -->
+    <section class="promo">
+        <div class="container">
+            <div class="promo-content">
+                <h1>Học trực tuyến</h1>
+                <p>Chúng tôi cung cấp hơn 1000 khóa học trực tuyến với nhiều chủ đề khác nhau</p>
+                <button class="btn">Bắt đầu ngay</button>
+            </div>
+            <div class="promo-logos">
+                <h2>Được hơn 16000 công ty và hàng triệu sinh viên trên thế giới tin dùng </h2>
+                <ul>
+                    <li><img src="../directory_1/image/cisco_logo.svg" alt="Cisco"></li>
+                    <li><img src="../directory_1/image/citi_logo.svg" alt="Citi"></li>
+                    <li><img src="../directory_1/image/hewlett_packard_enterprise_logo.svg" alt="Hewlett Packard"></li>
+                    <li><img src="../directory_1/image/procter_gamble_logo.svg" alt="Procter & Gamble"></li>
+                    <li><img src="../directory_1/image/samsung_logo.svg" alt="Samsung"></li>
+                    <li><img src="../directory_1/image/volkswagen_logo.svg" alt="Volkswagen"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!-- section 2 -->
+    <section class="courses">
+        <div class="container">
+            <div class="card">
+                <img src="../directory_1/image/amazon.png" alt="AWS">
+                <div class="card-body">
+                    <h2 class="card-title">Vỡ lòng về Amazon Web Services</h2>
+                    <p class="card-author">Thang Nguyen</p>
+                    <p class="card-rating">4,9 ★★★★★ (100)</p>
+                    <p class="card-price">₫ 799.000</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../directory_1/image/amazon.png" alt="AWS">
+                <div class="card-body">
+                    <h2 class="card-title">Vỡ lòng về Amazon Web Services</h2>
+                    <p class="card-author">Thang Nguyen</p>
+                    <p class="card-rating">4,9 ★★★★★ (100)</p>
+                    <p class="card-price">₫ 799.000</p>
+                </div>
+            </div><div class="card">
+                <img src="../directory_1/image/amazon.png" alt="AWS">
+                <div class="card-body">
+                    <h2 class="card-title">Vỡ lòng về Amazon Web Services</h2>
+                    <p class="card-author">Thang Nguyen</p>
+                    <p class="card-rating">4,9 ★★★★★ (100)</p>
+                    <p class="card-price">₫ 799.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- section 3: t.css -->
+    <section>
+        <div class="container">
+            <h2 style="margin: 80px 0;">Chương trình học tập hướng tới mục tiêu </h2>
+            <div style="display: flex;">
+                <div class="left-panel">
+                    <div class="section" onclick="showContent('content1')">
+                        <img class="img_content" src="./image/1.png" alt="box_arch_icon">
+                        <div>
+                            <h3>Đào tạo thực hành</h3>
+                            <p>Nâng cao kỹ năng một cách hiệu quả với các bài tập coding.</p>
+                            <span><a href="">Tim hieu them</a></span>
+                        </div>
+                    </div>
+                    <div class="section" onclick="showContent('content2')">
+                        <img class="img_content" src="./image/2.png" alt="box_arch_icon">
+                        <div>
+                            <h3>Luyện thi chứng chỉ</h3>
+                            <p>Luyện thi các chứng chỉ được công nhận trong ngành.</p>
+                            <span><a href="">Tim hieu them</a></span>
+                        </div>
+                    </div>
+                    <div class="section" onclick="showContent('content3')">
+                        <img class="img_content" src="./image/3.webp" alt="box_arch_icon">
+                        <div>
+                            <h3>Những hiểu biết và khoa học phân tích dữ liệu</h3>
+                            <p>Theo dõi nhanh các mục tiêu bằng những hiểu biết sâu sắc.</p>
+                            <span><a href="">Tim hieu them</a></span>
+                        </div>
+                    </div>
+                    <div class="section" onclick="showContent('content4')">
+                        <img class="img_content" src="./image/4.png" alt="box_arch_icon">
+                        <div>
+                            <h3>Nội dung có thể tùy chỉnh</h3>
+                            <p>Tạo lộ trình học tập phù hợp cho các mục tiêu của nhóm.</p>
+                            <span><a href="">Tim hieu them</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <div id="content1" class="content">
+                        <img src="./image/4.webp" alt="">
+                    </div>
+                    <div id="content2" class="content hidden">
+                        <img src="./image/5.png" alt="">
+                    </div>
+                    <div id="content3" class="content hidden">
+                        <img src="./image/6.png" alt="">
+                    </div>
+                    <div id="content4" class="content hidden">
+                        <img src="./image/7.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+<!-- section 4:  xem.css -->
+    <section>
+        <div class="container">
+            <h2 style="margin: 80px 0;">Xem những người khác đang đạt được gì thông qua học tập</h2>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <blockquote>
+                        <p>
+                            Udemy được đánh giá là <strong>chương trình cấp chứng chỉ hoặc khóa học online phổ biến nhất</strong> về học cách viết code theo Khảo sát nhà phát triển Stack Overflow năm 2023.
+                        </p>
+                    </blockquote>
+                    <div class="testimonial-meta">
+                        <img src="../image/logo.png" alt="Stack Overflow Logo">
+                        <p>Thu thập được 37.076 phản hồi</p>
+                    </div>
+                    <a href="#">Xem các khóa học Phát triển web →</a>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <p>
+                            Udemy thực sự <strong>là yếu tố mang tính đột phá và là nền tảng dạy học tuyệt vời</strong> dành cho tôi khi chúng tôi đưa Dimensional vào cuộc sống.
+                        </p>
+                    </blockquote>
+                    <div class="testimonial-meta">
+                        <img src="../image/logo.png" alt="Alvin Lim">
+                        <p>Alvin Lim<br>Đồng sáng lập kỹ thuật, CTO tại Dimensional</p>
+                    </div>
+                    <a href="#">Xem khóa học iOS & Swift này →</a>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <p>
+                            Udemy cho bạn khả năng kiên trì. Tôi đã học được chính xác những gì tôi cần biết trong thực tiễn. Những kiến thức và kỹ năng này đã giúp tôi tự phát triển bản thân và <strong>thăng tiến sự nghiệp</strong>.
+                        </p>
+                    </blockquote>
+                    <div class="testimonial-meta">
+                        <img src="../image/logo.png" alt="William A. Wachlin">
+                        <p>William A. Wachlin<br>Chuyên viên quản lý đối tác tại Amazon Web Services</p>
+                    </div>
+                    <a href="#">Xem khóa học AWS này →</a>
+                </div>
+                <div class="testimonial-card">
+                    <blockquote>
+                        <p>
+                            Với Udemy Business, các nhân viên đã có thể kết hợp các kỹ năng mềm về công nghệ và tư vấn lại với nhau... để <strong>thúc đẩy sự nghiệp của họ phát triển</strong>.
+                        </p>
+                    </blockquote>
+                    <div class="testimonial-meta">
+                        <img src="../image/logo.png" alt="Ian Stevens">
+                        <p>Ian Stevens<br>Head of Capability Development, North America at Publicis Sapient</p>
+                    </div>
+                    <a href="#">Đọc toàn bộ câu chuyện →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- section 5: xu huong.css -->
+    <section style="margin-top: 100px;">
+        <div class="container" style="display: flex;">
+            <div class="content_container">
+                <h1>Những xu hướng hàng đầu trong tương lai của việc làm</h1>
+                <p>
+                    AI tạo sinh (GenAI) và khả năng lãnh đạo là cốt lõi của nền kinh tế dựa trên kỹ năng ngày nay. 
+                    Hãy tải Báo cáo Xu hướng kỹ năng và học tập toàn cầu năm 2024 để tìm hiểu thêm.
+                </p>
+                <button class="download-btn">Tải báo cáo →</button>
+            </div>
+            <div class="image-container">
+                <img src="./image/Onsite_Desktop_GLSTR25.png" alt="2025 Global Learning & Skills Trends Report">
+            </div>
+        </div>
+    
+    </section>
+<!-- section 6: trending.css -->
+    <section style="margin-top: 100px;">
+        <div class="container">
+            <div class="trending-skills">
+                <h1>Đang thịnh hành</h1>
+                <hr>
+                <div class="top-skill">
+                    <h2>ChatGPT là một kỹ năng hàng đầu</h2>
+                    <a href="#" class="link">Xem các khóa học về ChatGPT →</a>
+                    <p>3.965.477 học viên</p>
+                    <button class="show-all-btn">Hiển thị tất cả các kỹ năng thịnh hành →</button>
+                </div>
+                <div class="categories">
+                    <div class="category">
+                        <h3>Phát triển</h3>
+                        <ul>
+                            <li><a href="#">Python →</a> <span>46.837.930 học viên</span></li>
+                            <li><a href="#">Phát triển web →</a> <span>13.832.922 học viên</span></li>
+                            <li><a href="#">Khoa học dữ liệu →</a> <span>7.615.785 học viên</span></li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Thiết kế</h3>
+                        <ul>
+                            <li><a href="#">Blender →</a> <span>2.837.491 học viên</span></li>
+                            <li><a href="#">Thiết kế đồ họa →</a> <span>4.429.500 học viên</span></li>
+                            <li><a href="#">Adobe Photoshop →</a> <span>12.573.902 học viên</span></li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Kinh doanh</h3>
+                        <ul>
+                            <li><a href="#">PMI Project Management Professional (PMP) →</a> <span>2.466.976 học viên</span></li>
+                            <li><a href="#">Microsoft Power BI →</a> <span>4.459.484 học viên</span></li>
+                            <li><a href="#">Quản lý dự án →</a> <span>3.825.924 học viên</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-sections">
+                <div class="footer-section">
+                    <h3>Về chúng tôi</h3>
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Hỗ trợ</h3>
+                    <ul>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Hỗ trợ kỹ thuật</a></li>
+                        <li><a href="#">Hướng dẫn sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Học Trực Tuyến. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
